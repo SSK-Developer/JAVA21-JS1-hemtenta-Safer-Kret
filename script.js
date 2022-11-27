@@ -66,7 +66,7 @@ btn.addEventListener("click", function (event) {
         }
     ).then(
         function (data) {
-            //skapar en for-loop som körs 5 gången, från index 1 till 5.
+            //skapar en for-loop som körs 5 gånger, från index 1 till 5.
             for(let i=1; i<=5;i++){  
                 let forecastWeather = document.getElementById("forecast-weather"); //hämtar element forecast-weather för att få tillgång till child-elements
                 weatherDay = forecastWeather.querySelector("#dag"+i); //hämtar div taggarna med namn dag1,dag2... osv, för att få tillgång till dess child-elements
